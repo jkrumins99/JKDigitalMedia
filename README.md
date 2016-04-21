@@ -1,2 +1,2 @@
 # JKDigitalMedia
-My Home DM Project
+My Digital Home Project
