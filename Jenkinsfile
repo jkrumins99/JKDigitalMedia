@@ -9,6 +9,12 @@ pipeline {
                 sh 'mvn --version'
             }
         }
+        
+        stage('Test') {
+            steps {
+                sh 'echo "This is a test"; exit 0'
+            }
+        }
     }
 }
 
