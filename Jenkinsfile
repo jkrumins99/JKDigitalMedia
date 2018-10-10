@@ -12,6 +12,7 @@ pipeline {
                 sh 'echo "This is a test"; exit 0'
             }
         }
+        
     }
     post {
         always {
